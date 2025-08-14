@@ -1,0 +1,45 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "astralite_pickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Astralite Pickaxe",
+    "specialInformation": {
+      "fixedValue": [
+        "§7Breaks pickaxe-breakable blocks within a 3x3 radius in the player's direction"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 1.2,
+    "enchantability": 18,
+    "damageVsEntity": 6.0,
+    "usageCount": 2500,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AstraliteIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "AstralitePickaxePassive"
+    }
+  }
+}

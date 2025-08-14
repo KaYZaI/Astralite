@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "astralite:astralite_block",
+    "astralite:astral_powder_ore",
+    "astralite:astral_powder_block",
+    "astralite:lava_ice"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "astralite_shovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Astralite Shovel",
+    "specialInformation": {
+      "fixedValue": [
+        "§7Breaks diggable blocks within a 3x3 radius in the player's direction"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 18,
+    "damageVsEntity": 6.5,
+    "usageCount": 2500,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AstraliteIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "AstraliteShovelPassive"
+    }
+  }
+}

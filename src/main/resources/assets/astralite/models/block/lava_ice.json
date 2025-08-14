@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "astralite:block/lava_ice",
+    "up": "astralite:block/lava_ice",
+    "north": "astralite:block/lava_ice",
+    "east": "astralite:block/lava_ice",
+    "south": "astralite:block/lava_ice",
+    "west": "astralite:block/lava_ice",
+    "particle": "astralite:block/lava_ice"
+  },
+  "render_type": "solid"
+}

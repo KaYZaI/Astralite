@@ -1,0 +1,42 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "astralite_hoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Astralite Hoe",
+    "specialInformation": {
+      "fixedValue": [
+        "§7The ultimate unbreakable farm tool (Almost)"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 4.0,
+    "enchantability": 18,
+    "damageVsEntity": 1.0,
+    "usageCount": 99999,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AstraliteIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:end_crystal"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "astralite:astralite_ingot"
+  },
+  "result": {
+    "item": "astralite:astralite_chestplate"
+  }
+}

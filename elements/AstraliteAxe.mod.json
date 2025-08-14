@@ -1,0 +1,45 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "astralite_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Astralite Axe",
+    "specialInformation": {
+      "fixedValue": [
+        "§7Crouch to cut all logs within a 7x7 radius around the broken log (Max 100 blocks high)"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 18,
+    "damageVsEntity": 10.0,
+    "usageCount": 2500,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AstraliteIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "AstraliteAxePassive"
+    }
+  }
+}

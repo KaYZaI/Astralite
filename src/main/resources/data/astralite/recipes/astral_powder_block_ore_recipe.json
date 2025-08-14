@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "astralite:astral_powder_block"
+    }
+  ],
+  "result": {
+    "item": "astralite:astral_powder",
+    "count": 9
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:AstraliteIngot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_AXE"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:AstraliteIngot"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.ENDER_EYE"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:AstraliteAxe"
+    },
+    "name": "astralite_axe_recipe",
+    "namespace": "mod"
+  }
+}

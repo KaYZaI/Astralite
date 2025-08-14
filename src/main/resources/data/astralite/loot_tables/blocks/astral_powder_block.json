@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "astralite:blocks/astral_powder_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "astralite:astral_powder_block"
+        }
+      ]
+    }
+  ]
+}

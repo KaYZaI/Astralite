@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "astralite:astral_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 45,
+    "separation": 12,
+    "salt": 1467001354
+  }
+}

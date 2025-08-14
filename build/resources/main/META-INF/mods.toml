@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="astralite"
+version="1.1.0"
+displayName="Astralite"
+displayURL="https://github.com/KaYZaI"
+logoFile="logo.png"
+credits="The best non-vanilla vanilla ingot"
+authors="KaYZaI"
+description="A vanilla expansion that adds a new end-game armor"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.astralite]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:AstralPowderPurified"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AstralPowderPurified"
+      },
+      {
+        "value": "CUSTOM:AstralPowderPurified"
+      },
+      {
+        "value": "CUSTOM:AstralPowderPurified"
+      },
+      {
+        "value": "CUSTOM:AstralPowderPurified"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "CUSTOM:AstralPowderPurified"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AstraliteIngot"
+    },
+    "name": "astralite_ingot_recipe",
+    "namespace": "mod"
+  }
+}

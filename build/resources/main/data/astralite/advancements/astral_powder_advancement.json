@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "astralite:astral_powder"
+    },
+    "title": {
+      "translate": "advancements.astral_powder_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.astral_powder_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "astral_powder_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "astralite:astral_powder"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:end/enter_end_gateway"
+}

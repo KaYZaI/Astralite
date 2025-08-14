@@ -1,0 +1,24 @@
+{
+  "_fv": 79,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "What Have You Done...",
+    "achievementDescription": "You're not human anymore",
+    "achievementIcon": {
+      "value": "Blocks.SKULL#0"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 64000,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:AstraliteHoeAchievement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"218\" y=\"204\"><next><block type=\"item_damaged\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:AstraliteHoe</field></block></value><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value></block></next></block></xml>"
+  }
+}

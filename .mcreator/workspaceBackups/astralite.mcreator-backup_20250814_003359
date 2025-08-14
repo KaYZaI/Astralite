@@ -1,0 +1,868 @@
+{
+  "mod_elements": [
+    {
+      "name": "Astral_PowderIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astralite/models/item/astral_powder.json",
+          "src/main/java/net/kayzai/astralite/item/Astral_PowderIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Astral_PowderOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_powder_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astralite/models/block/astral_powder_ore.json",
+          "src/main/java/net/kayzai/astralite/block/Astral_PowderOreBlock.java",
+          "src/main/resources/assets/astralite/models/item/astral_powder_ore.json",
+          "src/main/resources/data/astralite/loot_tables/blocks/astral_powder_ore.json",
+          "src/main/resources/assets/astralite/blockstates/astral_powder_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Astral_PowderBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_powder_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astralite/blockstates/astral_powder_block.json",
+          "src/main/java/net/kayzai/astralite/block/Astral_PowderBlockBlock.java",
+          "src/main/resources/assets/astralite/models/item/astral_powder_block.json",
+          "src/main/resources/data/astralite/loot_tables/blocks/astral_powder_block.json",
+          "src/main/resources/assets/astralite/models/block/astral_powder_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Astral_PowderOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_powder_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/advancements/recipes/astral_powder_ore_block_recipe.json",
+          "src/main/resources/data/astralite/recipes/astral_powder_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Astral_PowderBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_powder_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/recipes/astral_powder_block_ore_recipe.json",
+          "src/main/resources/data/astralite/advancements/recipes/astral_powder_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/recipes/astralite_armor_armor_helmet_recipe.json",
+          "src/main/resources/data/astralite/advancements/recipes/astralite_armor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteArmorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/recipes/astralite_armor_armor_chestplate_recipe.json",
+          "src/main/resources/data/astralite/advancements/recipes/astralite_armor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/recipes/astralite_armor_armor_leggings_recipe.json",
+          "src/main/resources/data/astralite/advancements/recipes/astralite_armor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteArmorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/recipes/astralite_armor_armor_boots_recipe.json",
+          "src/main/resources/data/astralite/advancements/recipes/astralite_armor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astralite/models/item/astralite_ingot.json",
+          "src/main/java/net/kayzai/astralite/item/AstraliteIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AstralIngotBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/loot_tables/blocks/astralite_block.json",
+          "src/main/resources/assets/astralite/models/block/astralite_block.json",
+          "src/main/resources/assets/astralite/models/item/astralite_block.json",
+          "src/main/java/net/kayzai/astralite/block/AstralIngotBlockBlock.java",
+          "src/main/resources/assets/astralite/blockstates/astralite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AstralIngotBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_ingot_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/advancements/recipes/astral_ingot_block_recipe.json",
+          "src/main/resources/data/astralite/recipes/astral_ingot_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteLeggingsPassive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_leggings_passive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/kayzai/astralite/procedures/AstraliteLeggingsPassiveProcedure.java"
+        ]
+      },
+      "path": "~/ArmorPassive"
+    },
+    {
+      "name": "LavaIce",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astralite/models/item/lava_ice.json",
+          "src/main/resources/data/astralite/loot_tables/blocks/lava_ice.json",
+          "src/main/resources/assets/astralite/models/block/lava_ice.json",
+          "src/main/java/net/kayzai/astralite/block/LavaIceBlock.java",
+          "src/main/resources/assets/astralite/blockstates/lava_ice.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteBootsPassive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_boots_passive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/kayzai/astralite/procedures/AstraliteBootsPassiveProcedure.java"
+        ]
+      },
+      "path": "~/ArmorPassive"
+    },
+    {
+      "name": "LavaIceOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_ice_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/kayzai/astralite/procedures/LavaIceOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteChestplatePassive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_chestplate_passive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/kayzai/astralite/procedures/AstraliteChestplatePassiveProcedure.java"
+        ]
+      },
+      "path": "~/ArmorPassive"
+    },
+    {
+      "name": "AstraliteHelmetPassive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_helmet_passive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/kayzai/astralite/procedures/AstraliteHelmetPassiveProcedure.java"
+        ]
+      },
+      "path": "~/ArmorPassive"
+    },
+    {
+      "name": "AstraliteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astralite/models/item/astralite_leggings.json",
+          "src/main/resources/assets/astralite/models/item/astralite_helmet.json",
+          "src/main/resources/assets/astralite/models/item/astralite_boots.json",
+          "src/main/resources/assets/astralite/models/item/astralite_chestplate.json",
+          "src/main/java/net/kayzai/astralite/item/AstraliteArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteSetPassive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_set_passive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/kayzai/astralite/procedures/AstraliteSetPassiveProcedure.java"
+        ]
+      },
+      "path": "~/ArmorPassive"
+    },
+    {
+      "name": "AstralPowderPurified",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_astral_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kayzai/astralite/item/AstralPowderPurifiedItem.java",
+          "src/main/resources/assets/astralite/models/item/purified_astral_powder.json"
+        ]
+      }
+    },
+    {
+      "name": "VialAstralPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vial_astral_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astralite/models/item/vial_astral_powder.json",
+          "src/main/java/net/kayzai/astralite/item/VialAstralPowderItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VialRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vial_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kayzai/astralite/recipes/brewing/VialRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PurifiedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kayzai/astralite/recipes/brewing/PurifiedRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/advancements/recipes/astralite_ingot_recipe.json",
+          "src/main/resources/data/astralite/recipes/astralite_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstralRock",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/worldgen/template_pool/astral_rock.json",
+          "src/main/resources/data/astralite/worldgen/structure_set/astral_rock.json",
+          "src/main/resources/data/astralite/worldgen/structure/astral_rock.json"
+        ]
+      }
+    },
+    {
+      "name": "AstralTree",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/worldgen/structure/astral_tree.json",
+          "src/main/resources/data/astralite/worldgen/structure_set/astral_tree.json",
+          "src/main/resources/data/astralite/worldgen/template_pool/astral_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "AstralPowderAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_powder_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/advancements/astral_powder_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteIngotAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_ingot_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/advancements/astralite_ingot_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteArmorAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_armor_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/advancements/astralite_armor_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astralite/models/item/astralite_shovel.json",
+          "src/main/java/net/kayzai/astralite/item/AstraliteShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AstralitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astralite/models/item/astralite_pickaxe.json",
+          "src/main/java/net/kayzai/astralite/item/AstralitePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kayzai/astralite/item/AstraliteAxeItem.java",
+          "src/main/resources/assets/astralite/models/item/astralite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kayzai/astralite/item/AstraliteHoeItem.java",
+          "src/main/resources/assets/astralite/models/item/astralite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/advancements/recipes/astralite_shovel_recipe.json",
+          "src/main/resources/data/astralite/recipes/astralite_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstralitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/recipes/astralite_pickaxe_recipe.json",
+          "src/main/resources/data/astralite/advancements/recipes/astralite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/recipes/astralite_axe_recipe.json",
+          "src/main/resources/data/astralite/advancements/recipes/astralite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/recipes/astralite_hoe_recipe.json",
+          "src/main/resources/data/astralite/advancements/recipes/astralite_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AstralitePickaxePassive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_pickaxe_passive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/kayzai/astralite/procedures/AstralitePickaxePassiveProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteShovelPassive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_shovel_passive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/kayzai/astralite/procedures/AstraliteShovelPassiveProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteAxePassive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_axe_passive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/kayzai/astralite/procedures/AstraliteAxePassiveProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AstraliteHoeAchievement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralite_hoe_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/advancements/astralite_hoe_achievement.json"
+        ]
+      }
+    },
+    {
+      "name": "WhatHaveYouDone",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what_have_you_done",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astralite/advancements/what_have_you_done.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:astralite:astral_powder": [],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:LavaIce",
+      "~CUSTOM:AstralIngotBlock",
+      "~CUSTOM:Astral_PowderBlock",
+      "~CUSTOM:Astral_PowderOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:AstralIngotBlock",
+      "~CUSTOM:Astral_PowderBlock"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Astral_PowderOre"
+    ],
+    "ENTITIES:minecraft:hostile_mobs": [
+      "EntityZombie",
+      "EntitySkeleton",
+      "EntitySpider",
+      "EntityCaveSpider",
+      "EntityEnderman",
+      "EntityEndermite",
+      "EntityCreeper",
+      "EntityZombieVillager",
+      "EntityRavager",
+      "EntitySilverfish",
+      "EntityVex",
+      "EntityEvoker",
+      "EntityPillager",
+      "EntityPiglinBrute",
+      "EntityPiglin"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AstralitePickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:AstraliteAxe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AstraliteShovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:AstraliteHoe"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.astralite.astral_powder_ore": "Astral Powder Ore",
+      "block.astralite.astral_powder_block": "Block of Astral Powder",
+      "item.astralite.astralite_ingot": "Astralite Ingot",
+      "block.astralite.lava_ice": "Lava Ice",
+      "item.astralite.vial_astral_powder": "Vial of Astral Powder",
+      "item.astralite.astral_powder": "Astral Powder",
+      "item.astralite.astralite_leggings.description_0": "§7Allows you to avoid void death by giving you a second chance",
+      "item.astralite.astralite_chestplate.description_1": "§6Full set:§7 Eating a Chorus grants the Golden Apple\u0027s effects ",
+      "item.astralite.astralite_chestplate.description_0": "§7Avoid death by teleporting to a random block within a 15 block radius.",
+      "item.astralite.astralite_leggings": "Astralite Leggings",
+      "item.astralite.astralite_leggings.description_1": "§6Full set:§7 Eating a Chorus grants the Golden Apple\u0027s effects ",
+      "item.astralite.astralite_boots": "Astralite Boots",
+      "item.astralite.astralite_boots.description_1": "§6Full set:§7 Eating a Chorus grants the Golden Apple\u0027s effects ",
+      "item.astralite.astralite_boots.description_0": "§7Offers the ability to walk on lava (Fire Walker)",
+      "item.astralite.astralite_helmet": "Astralite Helmet",
+      "item.astralite.astralite_helmet.description_0": "§7Grants Conduit Power and immunity to Wither.",
+      "item.astralite.astralite_chestplate": "Astralite Chestplate",
+      "item.astralite.astralite_helmet.description_1": "§6Full set:§7 Eating a Chorus grants the Golden Apple\u0027s effects ",
+      "block.astralite.astralite_block": "Block of Astralite",
+      "item.astralite.purified_astral_powder": "Purified Astral Powder",
+      "advancements.astral_powder_advancement.descr": "Find and collect your first Astral Powder",
+      "advancements.astral_powder_advancement.title": "End Update !?",
+      "advancements.astralite_ingot_advancement.title": "The Unknown Ingot",
+      "advancements.astralite_ingot_advancement.descr": "Craft an Astralite Ingot",
+      "advancements.astralite_armor_advancement.descr": "Get a full suit of Astralite armor",
+      "advancements.astralite_armor_advancement.title": "Cover Me with History",
+      "item.astralite.astralite_shovel": "Astralite Shovel",
+      "item.astralite.astralite_pickaxe": "Astralite Pickaxe",
+      "item.astralite.astralite_axe": "Astralite Axe",
+      "item.astralite.astralite_hoe": "Astralite Hoe",
+      "item.astralite.astralite_shovel.description_0": "§7Breaks diggable blocks within a 3x3 radius in the player\u0027s direction",
+      "item.astralite.astralite_pickaxe.description_0": "§7Breaks pickaxe-breakable blocks within a 3x3 radius in the player\u0027s direction",
+      "item.astralite.astralite_axe.description_0": "§7Crouch to cut all logs within a 7x7 radius around the broken log (Max 100 blocks high)",
+      "item.astralite.astralite_hoe.description_0": "§7The ultimate unbreakable farm tool (Almost)",
+      "advancements.astralite_hoe_achievement.descr": "Use an Astralite Ingot to upgrade a hoe, and assume your choice to become the ultimate farmer",
+      "advancements.astralite_hoe_achievement.title": "What Are You Doing!?",
+      "advancements.what_have_you_done.descr": "You\u0027re not human anymore",
+      "advancements.what_have_you_done.title": "What Have You Done..."
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/kayzai/astralite/init/AstraliteModModels.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/kayzai/astralite/init/AstraliteModTabs.java",
+      "src/main/java/net/kayzai/astralite/AstraliteMod.java",
+      "src/main/java/net/kayzai/astralite/init/AstraliteModBlocks.java",
+      "src/main/java/net/kayzai/astralite/init/AstraliteModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "ArmorPassive",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "astralite",
+    "modName": "Astralite",
+    "version": "1.1.0",
+    "description": "A vanilla expansion that adds a new end-game armor",
+    "author": "KaYZaI",
+    "websiteURL": "https://github.com/KaYZaI",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "astralite_lingot",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "The best non-vanilla vanilla ingot",
+    "modElementsPackage": "net.kayzai.astralite"
+  },
+  "mcreatorVersion": 202500228610
+}

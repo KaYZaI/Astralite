@@ -1,0 +1,33 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "astral_tree",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 45,
+    "separation": 12,
+    "restrictionBiomes": [
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "end_midlands"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 50,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

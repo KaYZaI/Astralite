@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "cave_spider",
+    "skeleton",
+    "endermite",
+    "vex",
+    "zombie_villager",
+    "piglin",
+    "creeper",
+    "silverfish",
+    "zombie",
+    "evoker",
+    "pillager",
+    "piglin_brute",
+    "enderman",
+    "spider",
+    "ravager"
+  ]
+}

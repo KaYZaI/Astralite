@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.what_have_you_done.title"
+    },
+    "description": {
+      "translate": "advancements.what_have_you_done.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "what_have_you_done_0": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "astralite:astralite_hoe"
+          ],
+          "durability": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 64000
+  },
+  "parent": "astralite:astralite_hoe_achievement"
+}

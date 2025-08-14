@@ -1,0 +1,81 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-12 14:46:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_taiga": "2025-08-12 14:46:16 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-08-12 14:46:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-08-12 14:46:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-08-12 14:46:21 +0200"
+    },
+    "done": true
+  },
+  "astralite:astral_powder_advancement": {
+    "criteria": {
+      "astral_powder_advancement_0": "2025-08-12 14:46:27 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astral_powder_ore_block_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:46:27 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astralite_armor_armor_boots_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:48:21 +0200"
+    },
+    "done": true
+  },
+  "astralite:astralite_ingot_advancement": {
+    "criteria": {
+      "astralite_ingot_advancement_0": "2025-08-12 14:48:21 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astral_ingot_block_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:48:21 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astralite_armor_armor_helmet_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:48:21 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astralite_armor_armor_leggings_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:48:21 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astralite_armor_armor_chestplate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:48:21 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

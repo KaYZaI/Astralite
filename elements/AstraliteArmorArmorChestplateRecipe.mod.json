@@ -1,0 +1,33 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:AstraliteIngot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_CHESTPLATE"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:AstraliteIngot"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.END_CRYSTAL"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:AstraliteArmor.body"
+    },
+    "name": "astralite_armor_armor_chestplate_recipe",
+    "namespace": "mod"
+  }
+}

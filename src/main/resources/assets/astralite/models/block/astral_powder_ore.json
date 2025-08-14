@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "astralite:block/astral_powder_ore",
+    "particle": "astralite:block/astral_powder_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,151 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-12 14:53:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2025-08-12 14:53:15 +0200",
+      "minecraft:plains": "2025-08-12 14:56:17 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-08-12 14:53:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-08-12 14:53:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-08-12 14:53:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-08-12 14:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-08-12 14:53:29 +0200"
+    },
+    "done": true
+  },
+  "astralite:astralite_armor_advancement": {
+    "criteria": {
+      "astralite_armor_advancement_3": "2025-08-12 14:55:46 +0200",
+      "astralite_armor_advancement_0": "2025-08-12 14:55:22 +0200",
+      "astralite_armor_advancement_1": "2025-08-12 14:55:44 +0200",
+      "astralite_armor_advancement_2": "2025-08-12 14:55:45 +0200"
+    },
+    "done": true
+  },
+  "astralite:astral_powder_advancement": {
+    "criteria": {
+      "astral_powder_advancement_0": "2025-08-12 14:55:29 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astral_powder_ore_block_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:55:29 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astralite_armor_armor_boots_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:55:34 +0200"
+    },
+    "done": true
+  },
+  "astralite:astralite_ingot_advancement": {
+    "criteria": {
+      "astralite_ingot_advancement_0": "2025-08-12 14:55:34 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astral_ingot_block_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:55:34 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astralite_armor_armor_helmet_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:55:34 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astralite_armor_armor_leggings_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:55:34 +0200"
+    },
+    "done": true
+  },
+  "astralite:recipes/astralite_armor_armor_chestplate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-12 14:55:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-08-12 14:56:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-08-12 14:58:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-08-12 14:58:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-08-12 14:58:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-08-12 14:58:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-08-12 14:58:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-08-12 14:59:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-08-12 15:38:37 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
