@@ -820,7 +820,7 @@
       "item.astralite.astralite_pickaxe.description_0": "§7Breaks pickaxe-breakable blocks within a 3x3 radius in the player\u0027s direction",
       "item.astralite.astralite_axe.description_0": "§7Crouch to cut all logs within a 7x7 radius around the broken log (Max 100 blocks high)",
       "item.astralite.astralite_hoe.description_0": "§7The ultimate unbreakable farm tool (Almost)",
-      "advancements.astralite_hoe_achievement.descr": "Use an Astralite Ingot to upgrade a hoe, and assume your choice to become the ultimate farmer",
+      "advancements.astralite_hoe_achievement.descr": "Use an Astralite Ingot to upgrade a Hoe, and fully accept your life choices",
       "advancements.astralite_hoe_achievement.title": "What Are You Doing!?",
       "advancements.what_have_you_done.descr": "You\u0027re not human anymore",
       "advancements.what_have_you_done.title": "What Have You Done..."
@@ -849,7 +849,7 @@
   "workspaceSettings": {
     "modid": "astralite",
     "modName": "Astralite",
-    "version": "1.0.1",
+    "version": "1.1.2",
     "description": "A vanilla expansion that adds a new end-game armor",
     "author": "KaYZaI",
     "websiteURL": "https://github.com/KaYZaI",

@@ -91,7 +91,7 @@ public class AstraliteChestplatePassiveProcedure {
 								_level.playLocalSound(xTest, yTest, zTest, ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("item.totem.use")), SoundSource.NEUTRAL, 1, 1, false);
 							}
 						}
-						if (true)
+						if (world.isClientSide())
 							Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(AstraliteModItems.ASTRALITE_CHESTPLATE.get()));
 					}
 				}

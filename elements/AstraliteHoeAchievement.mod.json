@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "What Are You Doing!?",
-    "achievementDescription": "Use an Astralite Ingot to upgrade a hoe, and assume your choice to become the ultimate farmer",
+    "achievementDescription": "Use a Astralite Ingot to upgrade a Hoe, and fully accept your life choices",
     "achievementIcon": {
       "value": "CUSTOM:AstraliteHoe"
     },

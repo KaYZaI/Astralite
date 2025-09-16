@@ -734,20 +734,6 @@
           "src/main/resources/data/astralite/advancements/what_have_you_done.json"
         ]
       }
-    },
-    {
-      "name": "WhiteEnderman",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "white_enderman",
-      "metadata": {
-        "files": [
-          "src/main/java/net/kayzai/astralite/entity/WhiteEndermanEntity.java",
-          "src/main/resources/assets/astralite/models/item/white_enderman_spawn_egg.json",
-          "src/main/java/net/kayzai/astralite/client/renderer/WhiteEndermanRenderer.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -837,9 +823,7 @@
       "advancements.astralite_hoe_achievement.descr": "Use an Astralite Ingot to upgrade a hoe, and assume your choice to become the ultimate farmer",
       "advancements.astralite_hoe_achievement.title": "What Are You Doing!?",
       "advancements.what_have_you_done.descr": "You\u0027re not human anymore",
-      "advancements.what_have_you_done.title": "What Have You Done...",
-      "item.astralite.white_enderman_spawn_egg": "White Enderman Spawn Egg",
-      "entity.astralite.white_enderman": "White Enderman"
+      "advancements.what_have_you_done.title": "What Have You Done..."
     }
   },
   "metadata": {
@@ -850,9 +834,7 @@
       "src/main/java/net/kayzai/astralite/init/AstraliteModTabs.java",
       "src/main/java/net/kayzai/astralite/AstraliteMod.java",
       "src/main/java/net/kayzai/astralite/init/AstraliteModBlocks.java",
-      "src/main/java/net/kayzai/astralite/init/AstraliteModItems.java",
-      "src/main/java/net/kayzai/astralite/init/AstraliteModEntityRenderers.java",
-      "src/main/java/net/kayzai/astralite/init/AstraliteModEntities.java"
+      "src/main/java/net/kayzai/astralite/init/AstraliteModItems.java"
     ]
   },
   "foldersRoot": {
@@ -867,7 +849,7 @@
   "workspaceSettings": {
     "modid": "astralite",
     "modName": "Astralite",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "A vanilla expansion that adds a new end-game armor",
     "author": "KaYZaI",
     "websiteURL": "https://github.com/KaYZaI",
